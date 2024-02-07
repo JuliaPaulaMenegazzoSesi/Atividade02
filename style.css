@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color:indigo;
+    z-index: 999;
+}
+
+body{
+    overflow: hidden;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding-top: 13px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+a:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+a:visited{
+    color:rgb(255, 255, 255);
+}
+
+.perfil01 {
+    padding-top: 50px;
+    width: 100%;
+    height: 600px;
+    background-color: goldenrod;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.perfil02 {
+    padding-top: 50px;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(97, 16, 97);
+}
+
+.tecno {
+    padding-top: 50px;
+    width: 100%;
+    height: 600px;
+    background-color: dimgrey;
+}
+
+.contact {
+    padding: 50px 0 50px 0;
+    width: 100%;
+    height: auto;
+    background-color: darkslateblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.leftCont {
+    background-color: dodgerblue;
+    width: 600px;
+    height: 500px;
+}
+
+.rightCont {
+    background-color: peru;
+    width: 600px;
+    height: 500px;
+}
+
+.rel{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(86, 184, 184);
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+.img {
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    position: relative;
+    transition: all 300ms linear;
+}
+
+img:hover{
+    transform: scale(1.1);
+    transition: all 300ms linear;
+}
