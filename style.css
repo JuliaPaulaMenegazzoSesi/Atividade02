@@ -17,10 +17,6 @@ header{
     z-index: 999;
 }
 
-body{
-    overflow: hidden;
-}
-
 ul{
     display: flex;
     gap: 20px;
@@ -114,12 +110,49 @@ a:visited{
     justify-content: center;
 }
 
-img {
+.pfp1 {
     position: relative;
     transition: all 300ms linear;
 }
 
-img:hover{
+.pfp1:hover{
     transform: scale(1.1);
     transition: all 300ms linear;
+}
+
+.tecno {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 10%;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 20%;
+}
+
+.tecnologias {
+    background-color: dimgray;
+}
+
+.imghtml {
+    height: 100px;
+}
+
+.imgcss {
+    height: 100px;
+}
+
+.imgjs {
+    height: 100px;
+}
+
+.tecnotxt {
+    text-align: justify;
+    justify-content: center;
+    margin: 50px;
+    font-size: small;
 }
