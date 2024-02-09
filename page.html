@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -83,16 +84,28 @@
     </div>
     <div class="contact" id="contact">
         <div class="leftCont">
-            <h2>contato</h2>
-            <p>manda mensagem</p>
-            <div class="contcaixa">
-                <textarea name="Nome" id="nome" cols="30" rows="10" placeholder="Nome completo"></textarea>
-                <textarea name="" id="" cols="30" rows="10" placeholder="E-mail"></textarea>
+            <div>
+                <h2>Contato</h2>
+                <p>Entre em contato</p>
             </div>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome">
+            </div>
+            <div>
+                <label for="msg">Mensagem:</label>
+                <input type="text" id="msg">
+            </div>
+            <button onclick="conferirMsgWpp()">Conferir dados</button>
         </div>
         <div class="rightCont">
-            <p>direita</p>
+            <div>
+                <p>Nome: <span id="confNome"></span></p>
+                <p>Mensagem: <span id="confMsg"></span></p>
+            </div>
+            <button onclick="enviar()"><img class="wpp" src="https://imagepng.org/wp-content/uploads/2017/08/WhatsApp-icone.png"></button>
         </div>
     </div>
 </body>
+
 </html>
