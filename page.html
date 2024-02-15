@@ -32,13 +32,29 @@
         </div>
         <div>
             <h1>Julia Paula Menegazzo</h1>
-            <p>Estudante no 3° ano do Ensino Médio em Desenvolvimento de Sistemas no Colégio SESI</p>
+            <ul>
+                <li>Estudante no 3° ano do Ensino Médio</li>
+            </ul>
+            <ul>
+                <li>Tecnico em Desenvolvimento de Sistemas</li>
+            </ul>
+            <ul>
+                <li>Aluna do Colégio SESI</li>
+            </ul>
         </div>
     </div>
     <div class="perfil02" id="perfil02">
         <div>
             <h1>Diego da Silva Araujo Gonçalves</h1>
-            <p>Estudante no 3° ano do Ensino Médio em Desenvolvimento de Sistemas no Colégio SESI</p>
+            <ul>
+                <li>Estudante no 3° ano do Ensino Médio</li>
+            </ul>
+            <ul>
+                <li>Tecnico em Desenvolvimento de Sistemas</li> 
+            </ul>
+            <ul>   
+                <li>Aluna do Colégio SESI</li>
+            </ul>
         </div>
         <div>
             <div class="rel">
@@ -88,29 +104,29 @@
     </div>
     <div class="contact" id="contact">
         <div class="leftCont">
-            <div>
+            <div class="">
                 <h2>Contato</h2>
                 <p>Entre em contato</p>
                 <hr style="width:98%;text-align:left;margin-left:0">
             </div>
-            <div>
+            <div class="jilo">
                 <label for="nome">Nome:</label>
                 <br>
-                <input type="text" id="nome">
+                <input type="text" id="nome" class="caixas">
             </div>
-            <div>
+            <div class="jilo">
                 <label for="nome">E-Mail:</label>
                 <br>
-                <input type="text" id="email">
+                <input type="text" id="email" class="caixas">
             </div>
-            <div>
+            <div class="jilo">
                 <label for="nome">CPF:</label>
                 <br>
-                <input type="text" id="cpf" maxlength="11">
+                <input type="text" id="cpf" maxlength="11" class="caixas">
             </div>
-            <div>
+            <div class="jilo">
                 <label for="msg">Mensagem:</label>
-                <input type="text" id="msg" class="msg">
+                <textarea name="" id="msg" cols="30" rows="10" class="msg"></textarea>
             </div>
             <button class="leftButton" onclick="conferirMsgWpp()">Conferir dados</button>
         </div>
@@ -120,10 +136,10 @@
                 <hr>
             </div>
             <div>
-                <p>Nome: <span id="confNome"></span></p>
-                <p>E-Mail: <span id="confEmail"></span></p>
-                <p>CPF: <span id="confCpf"></span></p>
-                <p>Mensagem: <span id="confMsg"></span></p>
+                <p class="mensagem">Nome: <span id="confNome" ></span></p>
+                <p class="mensagem">E-Mail: <span id="confEmail" ></span></p>
+                <p class="mensagem">CPF: <span id="confCpf" ></span></p>
+                <p class="mensagem">Mensagem: <span id="confMsg" ></span></p>
             </div>
             <div class="buttonWpp">
                 <button onclick="enviar()" class="botaoWpp"><img class="wpp"

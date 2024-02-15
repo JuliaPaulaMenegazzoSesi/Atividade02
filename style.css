@@ -89,12 +89,14 @@ a:visited {
     align-items: center;
     justify-content: center;
     gap: 20px;
+    
 }
 
 .leftCont {
     background-color: #deecf9;
     width: 600px;
     height: 500px;
+    border-radius: 5px;
 }
 
 .rightCont {
@@ -103,6 +105,7 @@ a:visited {
     height: 500px;
     padding: 10px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 5px;
 }
 
 .rel {
@@ -182,6 +185,7 @@ a:visited {
     justify-content: center;
     margin: 50px;
     font-size: medium;
+
 }
 
 .leftCont {
@@ -192,6 +196,10 @@ a:visited {
 .msg {
     width: 97%;
     height: 100px;
+    border-radius: 5px;
+    resize: none;
+    border-width: 2px;
+    border-color: black;
 }
 
 .wpp {
@@ -203,7 +211,7 @@ a:visited {
 .buttonWpp {
     display: flex;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 70px;
 }
 
 .botaoWpp {
@@ -215,5 +223,19 @@ a:visited {
     margin-top: 10px;
     margin-left: 40%;
     padding: 10px 5px 10px;
+    border-radius: 5px;
 }
 
+.caixas{
+    border-radius: 4px;
+}
+
+.mensagem{
+    padding: 10px;
+    font-size: 15px;
+}
+
+.jilo{
+    padding: 7px;
+    font-size: 16px;
+}
