@@ -21,7 +21,7 @@ function conferirMsgWpp() {
 }
 
 function enviar() {
-    var numTel = "5541992829521"
+    var numTel = "5541999999999"
 
     var linkWpp = "https://wa.me/" + numTel + "?text=Nome: " + nomeGlobal + " - " + emailGlobal + " - " + cpfGlobal + " - " + msgGlobal;
 
